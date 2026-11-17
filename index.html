@@ -269,11 +269,10 @@
       <div class="container">
         <div class="section-head reveal">
           <div><p class="eyebrow">03 / Coursework</p><h2>FINAL <span>LAB TASKS</span></h2></div>
-          <p class="section-note">No work published yet.</p>
+          
         </div>
 <div class="task-grid" id="finalGrid">
           <div class="empty-state" style="display:block; grid-column:1 / -1; padding:34px 20px; text-align:center;">No work published yet.</div>
-        </div>
         </div>
       </div>
     </section>
@@ -333,10 +332,6 @@
       });
     }, { threshold: 0.12 });
     document.querySelectorAll('.reveal').forEach(item => revealObserver.observe(item));
-        grid.querySelector('.empty-state').style.display = visible ? 'none' : 'block';
-      });
-    });
-
     // Start music after the visitor clicks the welcome-screen button.
     const audio = document.getElementById('backgroundAudio');
     const musicToggle = document.getElementById('musicToggle');
